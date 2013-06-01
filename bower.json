@@ -1,0 +1,13 @@
+{
+  "name": "data_viz",
+  "version": "0.0.0",
+  "dependencies": {
+    "underscore": "*",
+    "highcharts": "*",
+    "jquery": "*",
+    "bootstrap": "*"
+  },
+  "devDependencies": {
+
+  }
+}
