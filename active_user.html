@@ -51,7 +51,13 @@ function display_chart(){
                       color: '#808080'
                   }]     
               },
-        
+              plotOptions: {
+                          series: {
+                              marker: {
+                                  enabled: false
+                              }
+                          }
+              },
               series: data
           });
     });

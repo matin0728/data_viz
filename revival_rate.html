@@ -35,7 +35,7 @@ function display_chart(){
                 zoomType: 'x'
               },
               title:{
-                text: 'N 日留存率',
+                text: '复活率',
                 x: -20 
               },
               xAxis:{
@@ -51,7 +51,13 @@ function display_chart(){
                       color: '#808080'
                   }]     
               },
-        
+              plotOptions: {
+                          series: {
+                              marker: {
+                                  enabled: false
+                              }
+                          }
+              },
               series: data
           });
     });
